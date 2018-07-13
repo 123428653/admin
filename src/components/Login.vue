@@ -60,7 +60,7 @@
     }
   };
 </script>
-<style scoped>
+<style lang="scss" scoped>
   .login{
     /*box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);*/
     -webkit-border-radius: 5px;
@@ -75,13 +75,15 @@
     box-shadow: 0 0 15px #cac6c6;
     position:relative;
     top:180px;
+    .title {
+      margin: 0px auto 40px auto;
+      text-align: center;
+      color: #505458;
+    }
+    .remember {
+      margin: 0px 0px 35px 0px;
+    }
   }
-  .title {
-    margin: 0px auto 40px auto;
-    text-align: center;
-    color: #505458;
-  }
-  .remember {
-    margin: 0px 0px 35px 0px;
-  }
+  
+  
 </style>
